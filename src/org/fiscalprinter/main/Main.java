@@ -38,7 +38,8 @@ public class Main {
 
 	private static FiscalPrinter retriveFiscalPrinter() {
 		FiscalPrinter model = new FiscalPrinter();
-		model.setPortName("COM5");
+		//model.setPortName("COM5");
+		model.setPortName("/dev/pts/13");
 		
 		return model;
 	}
